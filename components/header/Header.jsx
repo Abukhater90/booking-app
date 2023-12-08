@@ -23,7 +23,8 @@ const Header = () => {
     <div className="header">
       <div className="headerList">
 
-        <div className="headerListItem">
+        <div className="headerListItem active">
+
         <FaBed />
         <span>Stays</span>
         </div>
@@ -49,8 +50,14 @@ const Header = () => {
         <span>Airports Taxis</span>
         </div>
 
+
+
       </div>
+
+      <h1 className="headerTitle"> A Lifetime Of Discount? It's Genius</h1>
+
     </div>
+    
   );
 };
 
